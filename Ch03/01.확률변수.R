@@ -21,3 +21,15 @@ x2 = x**2
 ex2 = sum(x^2 *px)
 varx = ex2 - ex ^ 2         # 분산 = 1
 varx
+
+### 주사위를 2회 던졌을 때 3의 배수의 갯수
+x = c(0, 1, 2)
+px = c(4/9, 4/9, 1/9)
+ex = sum(x * px)                # 기댓값 = 2/3
+ex
+
+x2 = x**2
+ex2 = sum(x^2 * px)
+varx = ex2 - ex^2
+varx
+
